@@ -1,0 +1,132 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Light gray background color */
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #660d69;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+section {
+    margin: 20px;
+    background-color: #fff; /* White background for content sections */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#about{
+    box-shadow: 5px 10px 8px 10px #bb94bc;
+}
+
+
+#about img {
+    max-width: 10%;
+    border-radius: 50%;
+    margin-left: 55px;
+    margin-top: -8px;
+    margin-bottom: 15px;   
+    
+}
+
+#about p{
+    margin-left:240px;
+    /* background-color: aquamarine; */
+    margin-top: -140px;
+    line-height: 30px;
+}
+#skills{
+    box-shadow: 5px 10px 8px 10px #bb94bc;
+}
+#skills h2{
+    margin-left: 20px;
+    color:#660d69
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #660d69;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+#projects{
+    margin-left: 20px;
+    box-shadow: 5px 10px 8px 10px #bb94bc;
+}
+#projects h2{
+    margin-left: 20px;
+    color: #660d69;
+}
+
+#projects h3{
+    margin-left: 20px;
+    text-decoration: underline;
+}
+#projects p{
+    margin-left: 20px;
+}
+
+/* #projects .project {
+    margin-bottom: 20px;
+} */
+
+#projects img {
+    max-width: 18%;
+    margin-left: 20px;
+}
+
+#resume{
+    box-shadow: 5px 10px 8px 10px #bb94bc;
+    
+}
+#resume h2{
+    margin-left: 20px;
+    color:#660d69
+}
+#resume p{
+    margin-left: 20px;
+}
+#contact{
+    box-shadow: 5px 10px 8px 10px #bb94bc;
+}
+#contact h2{
+    margin-left: 20px;
+    color:#660d69
+}
+#contact p{
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #660d69;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
